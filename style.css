@@ -18,28 +18,32 @@ body {
   width: 350px;
   height: 450px;
   background-color: white;
-  border-radius: 5px
+  border-radius: 5px;
 }
-.card img{
+.card img {
   object-fit: cover;
   object-position: center;
   height: 55%;
   width: 100%;
   padding: 20px;
 }
-h1,h3{
+h1,
+h3 {
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
   text-align: center;
 }
-h3{
+h3 {
   font-size: 25.5px;
-  color:red;
+  color: rgb(24, 144, 204);
 }
-.btn{
- display: flex;
- justify-content: center;
- align-items: center;
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#Add{
+#Add {
   background-color: rgb(81, 112, 81);
   color: white;
   display: block;
@@ -47,8 +51,12 @@ h3{
   height: 35px;
   width: 105px;
 }
-button{
+button {
   text-align: center;
   font-size: 12.5px;
   font-weight: bold;
+
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
